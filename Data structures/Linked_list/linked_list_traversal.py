@@ -1,7 +1,7 @@
 from linked_list_intro import Node, Linkedlist
 
 
-class LinkedList(Linkedlist):
+class LL(Linkedlist):
 
     def printList(self):
         temp = self.head
@@ -12,7 +12,7 @@ class LinkedList(Linkedlist):
 
 if __name__ == "__main__":
     # Start with an empty list
-    llist = LinkedList()
+    llist = LL()
     llist.head = Node(1)
     second = Node(2)
     third = Node(3)
