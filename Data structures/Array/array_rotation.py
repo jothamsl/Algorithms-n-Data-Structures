@@ -19,9 +19,9 @@ def rotate(arr: List[int], d: int, n: int) -> List[int]:
     """
     Rotates Array by d
     """
-    temp = [arr.pop(0) for i in range(d)]  # Get First two array values
+    temp = [arr.pop(0) for i in range(d)]  # Pop first two array values
     for i in temp:
-        arr.append(i)  # Append poped items back into the list
+        arr.append(i)  # Append popped items back into the list
     return arr
 
 
