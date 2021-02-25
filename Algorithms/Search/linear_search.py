@@ -1,6 +1,18 @@
 """
+TASK
+----
 Given an array of n elements, write a function "search()" that finds 
 element x in arr
+
+EXPLAINATION
+------------
+The linear search algorithm works by comparing the search value (x) 
+with each individual element of the array.
+
+[1, 2, 3, 4] -> [1,   2,   3,   4] <- Compare x with each individual 
+                 ^ -> ^ -> ^ -> ^     value
+   x = 4         |    |    |    |    
+                 x    x    x    x  <- Value Found
 """
 
 from typing import List 
